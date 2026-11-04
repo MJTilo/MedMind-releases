@@ -4,20 +4,21 @@
 
 Open the APK on Android and follow the installation prompt. Future updates are available in **Settings → App updates**.
 
-## Current release: v1.0.42
+## Current release: v1.0.43
 
-[Download MedMind v1.0.42](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.42/MedMind-v1.0.42.apk)
+[Download MedMind v1.0.43](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.43/MedMind-v1.0.43.apk)
 
-- Admin password requirements and background request alerts.
-- Pag-IBIG, PhilHealth and SSS IDs, plus reverse-side camera/upload prompts when required details are missing.
-- Scanned-name autofill, surname/given-name order matching and 09 phone-number validation.
-- Vertical signup password requirements and valid date-range calendar limits.
-- Additional guards for stale/duplicate ID scans, image size, admin password confirmation and blocked browser alerts.
-- Includes the earlier PWD/Senior ID, Filipino UI, dose-recording, schedule, request-deadline and database-setup fixes already in main.
+- Provider-enforced password requirements with a matching five-item checklist in mobile signup and admin password changes.
+- Spaces and Unicode letters no longer count as the required symbol.
+- Server-side locking for concurrent admin password changes.
+- Stricter ID-response validation and recovery from stalled notification requests.
+- Includes earlier ID, language, schedule, validation and request-recovery fixes.
 
-Affected areas passed targeted automated checks. A full-system regression run was not performed for this release.
+334 root tests and 104 backend tests passed; one root test was intentionally skipped. Eight mobile browser layouts passed.
 
-Built from [Shonome/CapstoneMedmind v1.0.42](https://github.com/Shonome/CapstoneMedmind/releases/tag/v1.0.42).
+The deployed provider has a Unicode minimum-length edge documented in the source password-policy report.
+
+Built from [Shonome/CapstoneMedmind v1.0.43](https://github.com/Shonome/CapstoneMedmind/releases/tag/v1.0.43).
 
 ## Dose confirmations
 
