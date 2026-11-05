@@ -4,16 +4,13 @@
 
 Open the APK on Android and follow the installation prompt. Future updates are available in **Settings → App updates**.
 
-## Current release: v1.0.46
+## Current release: v1.0.47
 
-[Download MedMind v1.0.46](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.46/MedMind-v1.0.46.apk)
+[Download MedMind v1.0.47](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.47/MedMind-v1.0.47.apk)
 
-- Email verification for patient and caregiver signup, with a 60-second resend wait and a way back to edit the address.
-- Forgot password on the mobile sign-in screen.
-- Recover the same archived profile with the existing password, or reset the password first.
-- Includes earlier fixes through v1.0.45.
-
-457 automated tests passed with one intentional skip. Live email and account tests passed.
+- Archived-account recovery and replacement require a six-digit email code and the existing password.
+- Fixed the reset-password backdrop and stabilized the email verification dialog on Android.
+- Includes earlier fixes through v1.0.46.
 
 ## Dose confirmations
 
