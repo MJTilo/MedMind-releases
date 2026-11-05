@@ -4,19 +4,19 @@
 
 Open the APK on Android and follow the installation prompt. Future updates are available in **Settings → App updates**.
 
-## Current release: v1.0.44
+## Current release: v1.0.45
 
-[Download MedMind v1.0.44](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.44/MedMind-v1.0.44.apk)
+[Download MedMind v1.0.45](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.45/MedMind-v1.0.45.apk)
 
-- Improved Senior Citizen and PWD ID recognition for varied local-government layouts.
-- Handles older laminated cards, attached portraits, handwritten numbers and labels below their values.
-- Corrects false rejection of warnings that report no signs of tampering.
-- Keeps matching-side, birthday and conflicting-identity safeguards.
-- Includes the previously published fixes through v1.0.43.
+- Education links restricted to DOH, FDA Philippines, DOST-FNRI, PSMID and WHO domains.
+- 51 supported articles published, with all 53 records preserved.
+- Ambroxol and Carbocisteine retained as unpublished drafts pending working approved references.
+- Matching source safeguards in the app, admin API and database.
+- Includes earlier fixes through v1.0.44.
 
-440 automated tests passed with one intentional skip. Sixteen live photo scans passed, including six exact name-and-number checks. Both supplied fronts correctly requested the reverse for the missing birthday.
+441 automated tests passed with one intentional skip. All 22 published reference destinations passed availability checks.
 
-[Source and test report](https://github.com/Shonome/CapstoneMedmind/blob/main/docs/LOCAL_ID_RELIABILITY_20261105.md).
+[Source correction and validation report](https://github.com/Shonome/CapstoneMedmind/blob/main/docs/EDUCATION_SOURCE_CORRECTION_20261105.md).
 
 ## Dose confirmations
 
