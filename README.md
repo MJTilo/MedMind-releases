@@ -4,21 +4,19 @@
 
 Open the APK on Android and follow the installation prompt. Future updates are available in **Settings → App updates**.
 
-## Current release: v1.0.43
+## Current release: v1.0.44
 
-[Download MedMind v1.0.43](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.43/MedMind-v1.0.43.apk)
+[Download MedMind v1.0.44](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.44/MedMind-v1.0.44.apk)
 
-- Provider-enforced password requirements with a matching five-item checklist in mobile signup and admin password changes.
-- Spaces and Unicode letters no longer count as the required symbol.
-- Server-side locking for concurrent admin password changes.
-- Stricter ID-response validation and recovery from stalled notification requests.
-- Includes earlier ID, language, schedule, validation and request-recovery fixes.
+- Improved Senior Citizen and PWD ID recognition for varied local-government layouts.
+- Handles older laminated cards, attached portraits, handwritten numbers and labels below their values.
+- Corrects false rejection of warnings that report no signs of tampering.
+- Keeps matching-side, birthday and conflicting-identity safeguards.
+- Includes the previously published fixes through v1.0.43.
 
-334 root tests and 104 backend tests passed; one root test was intentionally skipped. Eight mobile browser layouts passed.
+440 automated tests passed with one intentional skip. Sixteen live photo scans passed, including six exact name-and-number checks. Both supplied fronts correctly requested the reverse for the missing birthday.
 
-The deployed provider has a Unicode minimum-length edge documented in the source password-policy report.
-
-Built from [Shonome/CapstoneMedmind v1.0.43](https://github.com/Shonome/CapstoneMedmind/releases/tag/v1.0.43).
+[Source and test report](https://github.com/Shonome/CapstoneMedmind/blob/main/docs/LOCAL_ID_RELIABILITY_20261105.md).
 
 ## Dose confirmations
 
