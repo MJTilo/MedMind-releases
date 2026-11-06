@@ -4,13 +4,12 @@
 
 Open the APK on Android and follow the installation prompt. Future updates are available in **Settings → App updates**.
 
-## Current release: v1.0.47
+## Current release: v1.0.48
 
-[Download MedMind v1.0.47](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.47/MedMind-v1.0.47.apk)
+[Download MedMind v1.0.48](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.48/MedMind-v1.0.48.apk)
 
-- Archived-account recovery and replacement require a six-digit email code and the existing password.
-- Fixed the reset-password backdrop and stabilized the email verification dialog on Android.
-- Includes earlier fixes through v1.0.46.
+- Accepts smaller prescription photos while keeping the medication and directions review.
+- Rereads the prescription footer when the printed license number is missed.
 
 ## Dose confirmations
 
