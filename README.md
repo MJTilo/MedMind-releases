@@ -4,12 +4,12 @@
 
 Open the APK on Android and follow the installation prompt. Future updates are available in **Settings → App updates**.
 
-## Current release: v1.0.48
+## Current release: v1.0.49
 
-[Download MedMind v1.0.48](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.48/MedMind-v1.0.48.apk)
+[Download MedMind v1.0.49](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.49/MedMind-v1.0.49.apk)
 
-- Accepts smaller prescription photos while keeping the medication and directions review.
-- Rereads the prescription footer when the printed license number is missed.
+- Reads the printed license number from a separate prescription close-up when needed.
+- Explains when the back of a PWD card has no matching name or ID number.
 
 ## Dose confirmations
 
