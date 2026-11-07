@@ -4,12 +4,12 @@
 
 Open the APK on Android and follow the installation prompt. Future updates are available in **Settings → App updates**.
 
-## Current release: v1.0.49
+## Current release: v1.0.50
 
-[Download MedMind v1.0.49](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.49/MedMind-v1.0.49.apk)
+[Download MedMind v1.0.50](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.50/MedMind-v1.0.50.apk)
 
-- Reads the printed license number from a separate prescription close-up when needed.
-- Explains when the back of a PWD card has no matching name or ID number.
+- Shows each expired reminder as missed and removes the misleading waiting message.
+- Adds Reset photo and improves profile editing.
 
 ## Dose confirmations
 
