@@ -4,13 +4,13 @@
 
 Open the APK on Android and follow the installation prompt. Future updates are available in **Settings → App updates**.
 
-## Current release: v1.0.50
+## Current release: v1.0.51
 
-[Download MedMind v1.0.50](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.50/MedMind-v1.0.50.apk)
+[Download MedMind v1.0.51](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.51/MedMind-v1.0.51.apk)
 
-- Shows each expired reminder as missed and removes the misleading waiting message.
-- Adds Reset photo and improves profile editing.
+- Moves optional government ID scanning to Settings. Signup still uses an email code.
+- Adds earlier dose review and previews changes to reminder times.
 
 ## Dose confirmations
 
-The dose confirmation button turns gray and becomes disabled 61 minutes after the scheduled time. The dose remains marked as missed in the caregiver adherence summary unless a taken confirmation was recorded within the allowed window.
+The regular dose confirmation button closes 61 minutes after its scheduled time. When logging a later dose, patients can review an earlier dose and enter the time they took it.
