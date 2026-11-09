@@ -4,12 +4,12 @@
 
 Open the APK on Android and follow the installation prompt. Future updates are available in **Settings → App updates**.
 
-## Current release: v1.0.51
+## Current release: v1.0.52
 
-[Download MedMind v1.0.51](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.51/MedMind-v1.0.51.apk)
+[Download MedMind v1.0.52](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.52/MedMind-v1.0.52.apk)
 
-- Moves optional government ID scanning to Settings. Signup still uses an email code.
-- Adds earlier dose review and previews changes to reminder times.
+- Patients and caregivers verify their government ID in **Settings → Account** before adding a new connection. Existing connections stay active.
+- Patient codes expire after 15 minutes or one use. Patients can replace or revoke a code in Settings.
 
 ## Dose confirmations
 
