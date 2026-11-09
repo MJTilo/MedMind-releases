@@ -4,12 +4,11 @@
 
 Open the APK on Android and follow the installation prompt. Future updates are available in **Settings → App updates**.
 
-## Current release: v1.0.52
+## v1.0.53 release notes
 
-[Download MedMind v1.0.52](https://github.com/MJTilo/MedMind-releases/releases/download/v1.0.52/MedMind-v1.0.52.apk)
-
-- Patients and caregivers verify their government ID in **Settings → Account** before adding a new connection. Existing connections stay active.
-- Patient codes expire after 15 minutes or one use. Patients can replace or revoke a code in Settings.
+- Makes name and birthday read-only in Settings for linked patients and caregivers.
+- Keeps the Patient Code controls in place when switching Settings sections.
+- Fixes the signup birthday picker, spacing above the phone field, and password reset.
 
 ## Dose confirmations
 
